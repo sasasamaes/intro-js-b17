@@ -41,13 +41,34 @@ var sumaDeUndefined = undefined1 + undefined2
 //   console.log("Eligiste un numero diferente a 0")
 // }
 
-// Ejemplo de mayoria de edad
+// Ejemplo de IF
+// Pedimos datos
 var usuarioEdad = prompt("Ingrese su edad")
 
+// Condicional
 if (usuarioEdad >= 21) {
+  // Si se cumple la primera condicion imprimimos esto
   console.log("Eres mayor de edad y puedes tomar chela y pistear :D y tambien votar")
 } else if (usuarioEdad >= 18) {
+    // Si se cumple la segunda condicion imprimimos esto
   console.log("Eres mayor de edad pero no puedes salir a pistear :( ")
 } else {
+  //Si ninguna se cumple 
   console.log("Eres menor de edad ")
+}
+
+// Pedir datos al usuario
+var xNombre = prompt("tu mensaje")
+// Concatenacion de textos
+var texto = "tu mensaje" + xNombre;
+// Imprimir resultado
+console.log(texto)
+
+var inputUsuario = prompt("pedimos datos")
+//Si
+//si
+//SI
+//sI
+if (inputUsuario == "si" || inputUsuario == "Si" || inputUsuario == "SI" || inputUsuario == "sI") {
+  console.log("El usuario dice que si")
 }
