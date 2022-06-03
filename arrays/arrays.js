@@ -159,9 +159,15 @@ var paises = ['Mexico', 'EUA', 'Chile'];
 var platillos = ['Pozole', 'Papatzules', 'Chanwis'];
 
 // var unionDeArrays = paises.concat(platillos);
-var unionDeArrays = platillos.concat(paises);
+// var unionDeArrays = platillos.concat(paises);
+var unionDeArrays = platillos.concat(['Juan', 'Pedro']);
+
 
 console.log(unionDeArrays);
+
+// Link para explorar más metodos 
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+
 
 
 
